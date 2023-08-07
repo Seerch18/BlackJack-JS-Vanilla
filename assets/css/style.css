@@ -1,0 +1,35 @@
+.zoneCardJugador1, .zoneCardCpu{
+    width: 150px;
+    height: 190px;
+    margin: 10px;
+    background-image: url("../cartas/grey_back.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: absolute;
+}
+
+.carta{
+    width: 150px;
+    height: 190px;
+    margin-left: 50px;
+    margin-right: -100px;
+    position: relative;
+}
+
+.grey-back, .red-back{
+    width: 30px;
+    height: 45px;
+}
+
+.grey-back{
+    transform: rotate(-30deg);
+}
+
+.red-back{
+    margin-left: -15px;
+    transform: rotate(35deg);
+}
+
+button:hover{
+    opacity: 80%;
+}
